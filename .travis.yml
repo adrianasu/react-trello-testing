@@ -4,11 +4,12 @@ cache:
   directories:
   - node_modules
 env:
-- CI=true
+  matrix:
+  - CI=true
 deploy:
   provider: heroku
   api_key:
-    secure: g5VpqC6yKvxeVLG+r3cYKVKoT3MyR+BjhT7N2GneJcnQQV3XgXIzvmMdjKCko4Z5CucV/tCXDk3c15/S5NZOJ5F20Qgso+pcp9i4h88/KGzQXO3IHOQ8mjdh778vqT/thz8708EVlBSb71SQ0d/YIsrMwB4dVqCSxYuPfaghv6ZrmuN09tzxMxR073HRtrDS9IDetgZ55QTqEGIedaSyiKBTgk7QY7SfOYsCW5SjcXpCyRgMGatTDeZRjBZteZbyv+b57g/lhi89t8qoZu2OCtw5qOUjufhApOLwH13y4YbRTVfUsu0uYE/Sx/Zn++XISBn+8i2sH1+ByL0hOTi9+Dc9XzHcO9Dc3ILVmoof8/3konhCkAuIt0IRMtKnkMeoqL+7UVkYCufaiupXFmduRRPsr+EA61QE0gvBe69ZPTeZ6g3UA0W0PAr/X8EioTaC790VyIdFB/Gm1/sQjDz+ZWgZHsSJWv7rXsQTLcNQhKSrVWpDunNEMMYzMHhLfzb5Mo9lzUdyCPbo1I4MFlh+t1fX6NRTnG+WZPUyKYPqqAvkbnRTH+2ZRpuPy80+8ez6wF+8NEqOOBn7xw7zFfU9O/jhHaXwe5F3IXfqKHuBs3rFkcuKYoGN2viqDYmmzkUkhNx8jcmsB5kuJbx1Wt12+NYgUmq/DXK5bB4zyUMDWNg=
-  app: react-trello-testing
+    secure: X0LLn96bSKQLwwqHJa/+Lyu26iPuyoTH6kc2Rk9rHgAjwhgY+2eFDPfkFtMOzPAVmbniRqv9CcGiprKOC1mHBukWosd/FoCXa394p9zXBYT2ERjdMPLj68L+i3K1jcHl7GpW4by9Y099u+FGvPJSQrvGe6ii2Qsj/MyfmpjuSNjTAOK7+jeSgpqyU4wC4j8GNq+8piWtEtzWw0+3H+Kp07vOXgc37KpGo8PTquPTe5HYO+0cwAAvYXgwAGyO9Tm3sRPn7Tnz7Bdp/N+WOtd2N1FodpiOjgmmDZSUr1y0styrEUuBq8O+9eTtbJygmXK2RwO0FiPSukUDVzMuMEbuUSnE/vnU2vUNDX0NjsHBU/XuNt45PY56rtg7YaTsaUHIYLnsQSGhPq/gD24fVSgqq++GoM1tFJHQYsKy+PNonmMcFtkE9TvFCYxqxH4dQPLPE+5GvoQjucXkUP9NWPoa37d7zlQ67XaURQ2yDAbzThE1JiTyeOnSkGMSPL787RTlc9vDvYsfvOLsUQ7AdUfiHTgYaoIsRCZGz0AtI8izi2dk36uOwMcGhmbphN2ib6MOJAalfiyHYGC5wFHh/MZgFx8mf74YMjlNA+gbn+Ul+mI/LpTuQhoaGSxt3EFXJUJVHbIphCRALeCUMfKBrGSqCsiAHuq9iUzfUFNR92aFnhE=
+  app: protected-depths-92986
   on:
     repo: adrianasu/react-trello-testing
